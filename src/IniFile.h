@@ -7,8 +7,10 @@
 // 8.3 filename instead and 8.3 directory with a leading slash
 #define INI_FILE_MAX_FILENAME_LEN 26
 
-#include "SD.h"
+#include "SdFat.h"
 #include "Ethernet.h"
+
+extern SdFat SD;
 
 class IniFileState;
 
